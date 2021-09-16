@@ -11,5 +11,5 @@ subscribe to a specific call bundle, etc.
   <img src="https://github.com/AhmedSamirScience/AkwadShbakty/blob/master/p1.jpeg"
        height="400" width="250"  />
  <img src="https://github.com/AhmedSamirScience/AkwadShbakty/blob/master/p2.jpeg"
-      height="300" width="400" /> 
+       height="400" width="250"  />
 </p>
