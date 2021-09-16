@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutMainSnackBar"
+    android:background="@mipmap/background_down"
+    tools:context=".main.ui.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/toolbarTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/TextView_ToolbarMainActivity"
+            android:textSize="@dimen/TextViewToolBar_text_size" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id= "@+id/cameraRecharge"
+        android:textSize="@dimen/cameraRechargeTextSize"
+        android:text= "@string/cameraRecharge_text"
+        android:layout_width="match_parent"
+        android:padding="@dimen/Button_Padding_cameraRecharge"
+        android:drawableTop="@drawable/ic_baseline_photo_camera"
+        android:layout_height="wrap_content"
+        android:background="@color/cameraRechargeColor"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/Button_Margin_cameraRechargeRightLeft"
+        android:layout_marginLeft="@dimen/Button_Margin_cameraRechargeRightLeft"
+        android:layout_marginTop="@dimen/Button_Margin_cameraRechargeTop" />
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/linearLayoutEditTextMarginTop"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/numberTransferBalanceEditText"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/transferBalanceEditTextMarginRightLeft"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="@string/numberTransferBalanceEditText_strings"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/amountNumberTransferBalanceEditText"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginRight="@dimen/transferBalanceEditTextMarginRightLeft"
+                android:layout_marginLeft="@dimen/transferBalanceEditTextMarginRightLeft"
+                android:inputType="number"
+                android:hint="@string/amountNumberTransferBalanceEditText_strings"
+                android:autofillHints="" />
+
+        </LinearLayout>
+
+        <Button
+            android:id= "@+id/balanceTransferButton"
+            android:text= "@string/balanceTransferButton_strings"
+            android:padding="@dimen/Button_Padding_balanceTransfer"
+            android:textSize="@dimen/balanceTransferButtonTextSize"
+            android:textColor="@color/white"
+            android:background="@color/balanceTransferButtonColor"
+            android:layout_width="match_parent"
+            android:drawableTop="@drawable/ic_baseline_monetization"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/balanceTransferButtonMarginRightLeft"
+            android:layout_marginLeft="@dimen/balanceTransferButtonMarginRightLeft" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/knowBalanceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="@dimen/knowBalanceEditTextMarginRightLeft"
+        android:layout_marginLeft="@dimen/knowBalanceEditTextMarginRightLeft"
+         android:ems="10"
+        android:inputType="number"
+        android:hint="@string/knowBalanceEditText_strings"
+        android:autofillHints="" />
+
+    <Button
+        android:id= "@+id/knowBalanceButton"
+        android:textSize="@dimen/knowBalanceButtonTextSize"
+        android:text= "@string/knowBalanceButton_strings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_baseline_payment"
+        android:padding="@dimen/Button_Padding_knowBalanceButton"
+        android:textColor="@color/white"
+        android:background="@color/knowBalanceButtonButtonColor"
+        android:layout_marginRight="@dimen/knowBalanceButton_stringsMarginRightLeft"
+        android:layout_marginLeft="@dimen/knowBalanceButton_stringsMarginRightLeft" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/linearLayoutRecyclerViewMarginTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linearLayoutRecyclerViewHeight"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id= "@+id/changeAdapterListHekayaButton"
+                android:text= "@string/changeAdapterListHekayaButton_String"
+                android:textSize="@dimen/changeAdapterListHekayaButtonTextSize"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/changeAdapterListHekayaButtonMarginRightLeft"
+                android:layout_marginRight="@dimen/changeAdapterListHekayaButtonMarginRightLeft"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/changeAdapterListConnectButton"
+                android:textSize="@dimen/changeAdapterListConnectButtonTextSize"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/changeAdapterListConnectButton_String" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id= "@+id/changeAdapterListEntertainmentButton"
+                android:textSize="@dimen/changeAdapterListEntertainmentButtonTextSize"
+                android:text= "@string/changeAdapterListEntertainmentButton_String"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/changeAdapterListEntertainmentButtonMarginRightLeft"
+                android:layout_marginRight="@dimen/changeAdapterListEntertainmentButtonMarginRightLeft" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_marginTop="@dimen/LinearLayoutMarginTopTwoButtons"
+            android:orientation="horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id= "@+id/changeAdapterListCallCenterButton"
+                android:text= "@string/changeAdapterListCallCenterButton_String"
+                android:textSize="@dimen/changeAdapterListCallCenterButtonTextSize"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/changeAdapterListCallCenterButtonMarginLeft"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id= "@+id/changeAdapterListOthersButton"
+                android:textSize="@dimen/changeAdapterListOthersButtonTextSize"
+                android:textColor="@color/white"
+                android:text= "@string/changeAdapterListOthersButton_String"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/changeAdapterListOthersButtonRightLeft"
+                android:layout_marginRight="@dimen/changeAdapterListOthersButtonRightLeft"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/changeAdapterListOthersButtonRightLeft"
+        android:layout_marginRight="@dimen/changeAdapterListOthersButtonRightLeft"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

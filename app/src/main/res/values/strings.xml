@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">shbakty</string>
+
+    <!-- Home Activity -->
+    <string name="TextView_HomeActivity">عزيزي مستخدمي التطبيق ، مرحبًا بكم. نود إخبارك بوجود تحديث للاكواد من حين لآخر من قبل الشركات ، لذا إذا لوحظ شيء ما ، فيرجى إخبارنا على الفور وسنقوم بتحديثه في أقرب وقت ممكن. نأمل أن نكون قد قدمنا لكم خدمة جيدة.</string>
+    <string name="Button_HomeActivity">للابلاغ عن اي تغيرات في الاكواد</string>
+    <string name="GridLayout_Text_View_HomeActivity_Vodafone">فودافون</string>
+    <string name="GridLayout_Text_View_HomeActivity_Orange">اورانج</string>
+    <string name="GridLayout_Text_View_HomeActivity_We">المصريه للاتصالات</string>
+    <string name="GridLayout_Text_View_HomeActivity_Etisalat">اتصالات</string>
+    <string name="GridLayout_Text_View_HomeActivity_MoreApps">تطبيقات اكثر</string>
+    <string name="GridLayout_Text_View_HomeActivity_PrivacyPolicy">سياسه خصوصيه</string>
+    <string name="GridLayout_Text_View_HomeActivity_FeedBack">للاقترحات و اعطاء رئي</string>
+    <string name="GridLayout_Text_View_HomeActivity_Share">مشاركه التطبيق</string>
+    <string name="GridLayout_Text_View_HomeActivity_RateUs">قيمنا</string>
+    <string name="contentDescription">CompanyImages</string>
+
+    <string name="emptyCellPhone">أنت لم تكتب رقم الهاتف</string>
+    <string name="emptyCellAmount">أنت لم تكتب المبلغ</string>
+    <string name="lengthProblemPhone">هناك مشكلة في عدد الأرقام</string>
+    <string name="formatProblemPhone">بداية الرقم خاطئة</string>
+    <string name="startProblemAmount">بداية الرقم خاطئة</string>
+    <string name="floatProblemAmount">من فضلك ادخل الرقم بدون كسور</string>
+    <string name="alertDialogCheckDetectedCodeRight">نعم صحيح</string>
+    <string name="alertDialogCheckDetectedCodeWrong">لا ارجوا محاوله اخري</string>
+    <string name="alertDialogTitle">تنبيه</string>
+    <string name="alertDialogMessage">هل هذا الرقم تم قرائته بطريقه صحيحه</string>
+    <string name="nextReleaseCamera">سوف يكون متاح هذه الميزه في الاصدار القادم قريبا</string>
+    <string name="numberTransferBalanceEditText_strings">اكتب هنا رقم التليفون</string>
+    <string name="amountNumberTransferBalanceEditText_strings">اكتب هنا المبلغ</string>
+    <string name="balanceTransferButton_strings">تحويل رصيد</string>
+    <string name="knowBalanceEditText_strings">اكتب هنا الرصيد او المبلغ الذي تريده</string>
+    <string name="knowBalanceButton_strings">ادفع كام</string>
+
+    <string name="cameraRecharge_text">للشحن من خلال الكاميرا</string>
+    <string name="changeAdapterListEntertainmentButton_String">باقات ترفيه</string>
+    <string name="changeAdapterListConnectButton_String">باقات انترنت</string>
+    <string name="changeAdapterListHekayaButton_String">باقات مكالمات</string>
+    <string name="changeAdapterListOthersButton_String">خدمات متنوعه</string>
+    <string name="changeAdapterListCallCenterButton_String">خدمه العملاء</string>
+
+    <string name="phoneCredit"> لو انت كتبت رصيد فانت محتاج تدفع </string>
+    <string name="phoneMoney"> لو انت كتبت مبلغ فهيوصلك </string>
+    <string name="phoneMoneyRest">جنيه رصيد </string>
+    <string name="phoneCreditRest"> جنيه </string>
+
+    <string name="toolbarOrange">Orange - اورانج</string>
+    <string name="toolbarVodafone">Vodafone - فودفون</string>
+    <string name="toolbarEtisalat">Etisalat - اتصالات</string>
+    <string name="toolbarWe">We - المصريه للاتصالات</string>
+
+
+
+
+</resources>

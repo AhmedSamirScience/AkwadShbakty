@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/background_up"
+    tools:context=".home.ui.HomeActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/UpperLinearLayout_HomeActivity"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="italic"
+                            android:layout_marginTop="@dimen/TextView_MarginTop__HomeActivity"
+                            android:layout_marginRight="@dimen/TextView_MarginRightLEft_HomeActivity"
+                            android:layout_marginLeft="@dimen/TextView_MarginRightLEft_HomeActivity"
+                            android:textSize="@dimen/TextView_TextSize_HomeActivity"
+                            android:layout_gravity="center"
+                            android:text="@string/TextView_HomeActivity"
+                            android:textAlignment="center"
+                            android:textColor="@color/TextView_HomeActivity"/>
+
+                        <Button
+                            android:id="@+id/feedbackButtonForChange"
+                            android:text="@string/Button_HomeActivity"
+                            android:textColor="@color/Button_text_HomeActivity"
+                            android:textSize="@dimen/Button_TextSize_HomeActivity"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/Button_MarginTop_HomeActivity"
+                            android:layout_width="@dimen/Button_LayoutWidth_HomeActivity"
+                            android:layout_height="@dimen/Button_LayoutHeight_HomeActivity"
+                            android:background="@drawable/button_shape_home_activity"
+                            android:shadowColor="@color/Button_shadow_HomeActivity"
+                            android:foreground="@drawable/card_foreground_button"
+                            android:clickable="true"
+                            android:focusable="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     android:orientation="vertical">
+
+                        <HorizontalScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UselessParent">
+
+                        <GridLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:columnOrderPreserved="false"
+                            android:alignmentMode="alignMargins"
+                            android:layout_marginRight="@dimen/GridLayout_MarginLeftRight"
+                            android:layout_marginLeft="@dimen/GridLayout_MarginLeftRight"
+                            android:rowCount="5"
+                            android:columnCount="2">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:id="@+id/etisalatButton"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/etisalate"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textStyle="bold"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_Etisalat"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Green"/>
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/orangeButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/orange"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textStyle="bold"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_Orange"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Orange"/>
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/vodafoneButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/vodafone"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textStyle="bold"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_Vodafone"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Red"/>
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/weButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/we"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textStyle="bold"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_We"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Purple"/>
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/rateButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/rate_us"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:textStyle="bold"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_RateUs"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Blue"/>
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/moreAppsButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/more_apps"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textStyle="bold"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_MoreApps"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Orange"/>
+
+
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/feedbackButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/feedbacks"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:textStyle="bold"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_FeedBack"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Blue"/>
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/shareAppButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/share"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:textStyle="bold"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_Share"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/DarkBlue"/>
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/privacyPolicyButton"
+                                    android:layout_width="@dimen/GridLayout_width_card"
+                                    android:layout_height="@dimen/GridLayout_height_card"
+                                    android:layout_columnWeight="1"
+                                    app:cardCornerRadius="@dimen/GridLayout_cardCornerRadius"
+                                    android:orientation="vertical"
+                                    android:gravity="center"
+                                    android:layout_margin="@dimen/GridLayout_Margin"
+                                    android:foreground="@drawable/card_foreground_gridlayout"
+                                    android:clickable="true"
+                                    android:focusable="true">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            tools:ignore="UseCompoundDrawables">
+
+                                                <ImageView
+                                                    android:layout_width="@dimen/GridLayout_height_width_image_view"
+                                                    android:layout_height="@dimen/GridLayout_height_width_image_view"
+                                                    android:src="@mipmap/privacy_policy"
+                                                    android:contentDescription="@string/contentDescription"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:textStyle="bold"
+                                                    android:layout_marginTop="@dimen/GridLayout_MarginTop_Text_view"
+                                                    android:textSize="@dimen/GridLayout_text_size"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/GridLayout_Text_View_HomeActivity_PrivacyPolicy"
+                                                    android:textAlignment="center"
+                                                    android:textColor="@color/Pink"/>
+
+
+
+                                        </LinearLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                        </GridLayout>
+
+                        </HorizontalScrollView>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

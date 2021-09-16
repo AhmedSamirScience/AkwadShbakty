@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home Activity -->
+    <!-- <item name="activity_home_dimen" type="layout">@layout/activity_home</item> -->
+    <dimen name="UpperLinearLayout_HomeActivity">163dp</dimen>
+
+    <dimen name="TextView_MarginRightLEft_HomeActivity">36dp</dimen>
+    <dimen name="TextView_TextSize_HomeActivity">15.4sp</dimen>
+    <dimen name="TextView_MarginTop__HomeActivity">20dp</dimen>
+
+    <dimen name="Button_TextSize_HomeActivity">15.4sp</dimen>
+    <dimen name="Button_LayoutWidth_HomeActivity">220dp</dimen>
+    <dimen name="Button_LayoutHeight_HomeActivity">30dp</dimen>
+    <dimen name="Button_MarginTop_HomeActivity">11dp</dimen>
+
+    <dimen name="GridLayout_MarginLeftRight">2dp</dimen>
+    <dimen name="GridLayout_Margin">10dp</dimen>
+    <dimen name="GridLayout_MarginTop_Text_view">16dp</dimen>
+    <dimen name="GridLayout_cardCornerRadius">16dp</dimen>
+    <dimen name="GridLayout_height_card">160dp</dimen>
+    <dimen name="GridLayout_width_card">120dp</dimen>
+    <dimen name="GridLayout_height_width_image_view">56dp</dimen>
+    <dimen name="GridLayout_text_size">13sp</dimen>
+
+    <!-- Main Activity -->
+    <dimen name="TextViewToolBar_text_size">19.5sp</dimen>
+    <dimen name="cameraRechargeTextSize">15.6sp</dimen>
+    <dimen name="balanceTransferButtonTextSize">15.6sp</dimen>
+    <dimen name="knowBalanceButtonTextSize">15.6sp</dimen>
+    <dimen name="changeAdapterListHekayaButtonTextSize">15sp</dimen>
+    <dimen name="changeAdapterListConnectButtonTextSize">15sp</dimen>
+    <dimen name="changeAdapterListEntertainmentButtonTextSize">15sp</dimen>
+    <dimen name="changeAdapterListCallCenterButtonTextSize">15sp</dimen>
+    <dimen name="changeAdapterListOthersButtonTextSize">15sp</dimen>
+
+
+    <dimen name="Button_Margin_cameraRechargeRightLeft">70dp</dimen>
+    <dimen name="Button_Margin_cameraRechargeTop">6dp</dimen>
+    <dimen name="Button_Padding_cameraRecharge">6dp</dimen>
+    <dimen name="Button_Padding_balanceTransfer">6dp</dimen>
+    <dimen name="balanceTransferButtonMarginRightLeft">100dp</dimen>
+    <dimen name="knowBalanceEditTextMarginRightLeft">60dp</dimen>
+    <dimen name="knowBalanceButton_stringsMarginRightLeft">100dp</dimen>
+    <dimen name="Button_Padding_knowBalanceButton">6dp</dimen>
+    <dimen name="linearLayoutRecyclerViewMarginTop">43.9dp</dimen>
+    <dimen name="linearLayoutRecyclerViewHeight">96dp</dimen>
+    <dimen name="changeAdapterListHekayaButtonMarginRightLeft">10dp</dimen>
+    <dimen name="changeAdapterListEntertainmentButtonMarginRightLeft">10dp</dimen>
+    <dimen name="changeAdapterListOthersButtonRightLeft">10dp</dimen>
+    <dimen name="changeAdapterListCallCenterButtonMarginLeft">10dp</dimen>
+    <dimen name="transferBalanceEditTextMarginRightLeft">21dp</dimen>
+    <dimen name="LinearLayoutMarginTopTwoButtons">4.9dp</dimen>
+    <dimen name="linearLayoutEditTextMarginTop">43.9dp</dimen>
+    <dimen name="dimenAllDrawables">24dp</dimen>
+
+</resources>

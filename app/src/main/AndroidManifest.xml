@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidElementNotAllowed -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sara.ahmed.moatazsamir">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+
+            <data android:mimeType="text/plain" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_app_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".camera.CameraHighPerformanceActivity"
+            android:theme="@style/CameraActivity" />
+
+        <activity
+            android:name=".main.ui.MainActivity"
+            android:theme="@style/MainActivity" />
+        <activity
+            android:name=".home.ui.HomeActivity"
+            android:theme="@style/HomeActivity" />
+        <activity
+            android:name=".splashscreen.SplashScreenActivity"
+            android:theme="@style/SplashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

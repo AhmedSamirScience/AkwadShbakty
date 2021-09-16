@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C81CF</color>
+    <color name="colorPrimaryDark">#6824AB</color>
+    <color name="colorAccent">#CEB3E0</color>
+
+    <!-- Home Activity -->
+    <color name="TextView_HomeActivity">#FFFFFF</color>
+    <color name="Button_shadow_HomeActivity">#ffe3aef1</color>
+    <color name="Button_text_HomeActivity">#FFFFFF</color>
+    <color name="Green">#A4BF76</color>
+    <color name="Red">#FF0000</color>
+    <color name="Orange">#E7532D</color>
+    <color name="Purple">#7D3692</color>
+    <color name="Blue">#9270EF</color>
+    <color name="DarkBlue">#6864AC</color>
+    <color name="Pink">#EC65D7</color>
+    <color name="colorHoverGridlayout">#4DCEB3E0</color>
+    <color name="colorHoverButton">#4DEC65D7</color>
+
+    <!-- Main Activity -->
+    <color name="TextView_ToolbarMainActivity">#FFFFFF</color>
+    <color name="FirstColor">#511281</color>
+    <color name="SecondColor">#BFA2DB</color>
+    <color name="ThirdColor">#F8485E</color>
+    <color name="cameraRechargeColor">#360F5C</color>
+    <color name="balanceTransferButtonColor">#6824AB</color>
+    <color name="knowBalanceButtonButtonColor">#6824AB</color>
+    <color name="white">#FFFFFF</color>
+
+
+     <color name="SmallToolBar2">#4DEC65D7</color>
+
+
+
+
+</resources>
