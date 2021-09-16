@@ -5,7 +5,6 @@ to all four communications companies like Etisalat to help the user do whatever 
 subscribe to a specific call bundle, etc. 
 
 Shabakty, This application collects most of the codes of the four communications companies (Orange, Vodafone, Etisalat, We) that will help the customer to get what he wants easily and he/she does not need to remember the code to complete what he/she wants. This application also helps you to charge your mobile phone using the camera. This feature is not actually supported by all mobile versions but it will be supported by all versions soon.
----------------------------------------------------------------------
 
 This project contains:
 - Architecture pattern: MVVM.
