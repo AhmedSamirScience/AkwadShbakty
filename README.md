@@ -9,7 +9,7 @@ subscribe to a specific call bundle, etc.
 
 <p  href="url" align="center"  >
   <img src="https://github.com/AhmedSamirScience/AkwadShbakty/blob/master/p1.jpeg"
-       height="500" width="200"  />
+       height="400" width="250"  />
  <img src="https://github.com/AhmedSamirScience/AkwadShbakty/blob/master/p2.jpeg"
       height="300" width="400" /> 
 </p>
